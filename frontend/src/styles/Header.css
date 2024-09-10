@@ -1,0 +1,54 @@
+.header {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #ffffff;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+.navbar-brand .logo {
+  max-width: 80px; /* Increase the size for better visibility */
+  height: auto;
+}
+
+.navbar-toggler {
+  border: none;
+  outline: none;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(0, 0, 0, 0.7)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.1rem;
+  color: #333333;
+  font-weight: 500;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff;
+}
+
+.navbar-nav .btn-primary {
+  background-color: #007bff;
+  border-radius: 25px;
+}
+
+.navbar-nav .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.collapse {
+  justify-content: flex-end;
+}

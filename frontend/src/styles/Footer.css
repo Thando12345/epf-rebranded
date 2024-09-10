@@ -1,0 +1,88 @@
+/* Footer Styles */
+.footer {
+  background-color: #343a40; /* Dark background color */
+  padding: 0.5rem 0; /* Reduced padding */
+  font-size: 0.75rem; /* Smaller font size for better compactness */
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.footer.hidden {
+  transform: translateY(100%);
+  opacity: 0;
+}
+
+.footer.visible {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.footer .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align the items horizontally */
+  max-width: 100%; /* Ensure it fits within screen width */
+}
+
+.footer .row {
+  display: flex;
+  justify-content: space-between; /* Distribute space between items */
+  align-items: flex-start; /* Align items to the top */
+  flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+  width: 100%; /* Ensure full width for alignment */
+}
+
+.footer .col {
+  flex: 1; /* Allow columns to grow and shrink as needed */
+  padding: 0 1rem; /* Add horizontal padding for spacing */
+}
+
+.footer h3 {
+  font-size: 0.875rem; /* Smaller font size for headings */
+  margin-bottom: 0.25rem; /* Reduced margin */
+}
+
+.footer p {
+  font-size: 0.75rem; /* Smaller font size for paragraphs */
+  margin: 0.125rem 0; /* Reduced margin */
+}
+
+.footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #f0a500; /* Color change on hover */
+}
+
+.footer .btn-link {
+  font-size: 0.75rem; /* Smaller font size for buttons */
+  margin: 0.25rem; /* Adjusted margin */
+}
+
+.footer .btn-home {
+  font-weight: bold; /* Make Home link stand out */
+  color: #f0a500; /* Highlight color for Home link */
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 0.25rem; /* Further reduced padding for smaller screens */
+  }
+
+  .footer h5 {
+    font-size: 0.75rem; /* Smaller font size for headings on mobile */
+  }
+
+  .footer p {
+    font-size: 0.625rem; /* Smaller font size for paragraphs on mobile */
+  }
+
+  .footer .btn-link {
+    font-size: 0.75rem; /* Consistent font size for buttons on mobile */
+  }
+}

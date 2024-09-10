@@ -1,0 +1,29 @@
+/* src/styles/Services.css */
+.services {
+  background-color: #007bff; /* Blue background color */
+  color: #ffffff; /* White text color */
+  padding: 2rem 0;
+}
+
+.services .card {
+  background: #ffffff;
+  color: #000000;
+}
+
+.services .card-body {
+  padding: 2rem;
+}
+
+.services .card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.services .card-text {
+  font-size: 1rem;
+}
+
+.services .service-icon {
+  font-size: 3rem; /* Larger icon size */
+  color: #007bff; /* Match the background color */
+}

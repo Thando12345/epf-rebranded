@@ -1,0 +1,22 @@
+/* src/styles/ServiceCard.css */
+.service-card {
+  border: none;
+}
+
+.service-card .card-body {
+  text-align: center;
+}
+
+.service-card .card-title {
+  font-size: 1.25rem;
+  margin-top: 0.5rem;
+}
+
+.service-card .card-text {
+  font-size: 1rem;
+}
+
+.service-icon {
+  font-size: 4rem; /* Adjust the size of the icon */
+  color: #007bff; /* Match the background color */
+}

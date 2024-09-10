@@ -1,0 +1,25 @@
+.services-page {
+    padding: 2rem;
+  }
+  
+  .services-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .service-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .service-card img {
+    max-width: 50px;
+    height: auto;
+  }
+  

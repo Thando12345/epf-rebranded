@@ -1,0 +1,42 @@
+/* src/styles/Contact.css */
+.contact {
+  background-color: #007bff; /* Blue background color */
+  color: #ffffff; /* White text color */
+  padding: 50px 0;
+}
+
+.contact .container {
+  background-color: #ffffff; /* White background for the form */
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact h2 {
+  color: #333; /* Dark color for the heading */
+}
+
+.contact .form-label {
+  font-weight: bold;
+  color: #333; /* Dark color for the form labels */
+}
+
+.contact .form-control {
+  border-radius: 0.25rem;
+  border: 1px solid #ced4da;
+}
+
+.contact .btn-primary {
+  background-color: #0056b3; /* Darker blue for button */
+  border-color: #0056b3;
+}
+
+.contact .btn-primary:hover {
+  background-color: #004494; /* Even darker blue for hover */
+  border-color: #003c71;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+}

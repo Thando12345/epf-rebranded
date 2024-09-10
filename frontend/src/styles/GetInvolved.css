@@ -1,0 +1,56 @@
+/* src/styles/GetInvolved.css */
+
+.get-involved {
+    background-color: #f1f1f1; /* Light background color for the page */
+    padding: 50px 0;
+  }
+  
+  .get-involved .container {
+    background-color: #ffffff; /* White background for the content */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .get-involved h2 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .get-involved .card {
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .get-involved .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .get-involved .card-body {
+    text-align: center;
+  }
+  
+  .get-involved .card-title {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .get-involved .card-text {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 1.5rem;
+  }
+  
+  .get-involved .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .get-involved .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004494;
+  }
+  
